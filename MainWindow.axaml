@@ -1,0 +1,22 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="AvaloniaApplication1.MainWindow"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        Title="Rock Paper Scissors Spock Lizard">
+    
+    <StackPanel>
+        
+        <TextBlock Text="Choose move:"/> 
+
+        <StackPanel>
+            <Button Content="Rock"/>
+            <Button Content="Paper"/>
+            <Button Content="Scissors"/>
+            <Button Content="Spock"/>
+            <Button Content="Lizard"/>
+        </StackPanel>
+
+        <TextBlock x:Name="r" Text="Result"/>
+        <TextBlock x:Name="s" Text="Score: 0 / 0 (Ties: 0)"/>
+    </StackPanel>
+</Window>
